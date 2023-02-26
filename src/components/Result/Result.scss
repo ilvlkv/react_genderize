@@ -1,0 +1,48 @@
+.result-block {
+  width: 90%;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5px;
+  padding: 0px 10px;
+
+  font-size: 14px;
+
+  button {
+    width: 15px;
+    height: 15px;
+
+    background: url('/src/assets/delete.svg');
+    background-size: cover;
+
+    border: none;
+
+    transition: 200ms;
+
+    &:hover {
+      cursor: pointer;
+      scale: 1.2;
+    }
+  }
+
+  &:nth-last-child(1) {
+    margin-bottom: 5px;
+  }
+}
+
+.result-block_female {
+  border: 2px solid pink;
+  color: pink;
+
+  border-radius: 10px;
+}
+
+.result-block_male {
+  border: 2px solid lightblue;
+  color: lightblue;
+
+  border-radius: 10px;
+}

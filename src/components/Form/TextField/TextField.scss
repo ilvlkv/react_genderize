@@ -1,0 +1,19 @@
+.text-field {
+  width: 300px;
+  height: 30px;
+
+  background: none;
+
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+
+  color: inherit;
+  font-size: 16px;
+
+  outline: none;
+
+  &::placeholder {
+    color: black;
+  }
+}

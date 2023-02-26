@@ -1,0 +1,46 @@
+.form,
+.warning {
+  width: 350px;
+  height: 32px;
+  border: 2px lightgray solid;
+
+  background-color: white;
+
+  border-radius: 10px;
+  margin-top: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  transition: 200ms;
+}
+
+.form_warning {
+  color: lightcoral;
+  animation: jello-vertical 0.5s both;
+}
+
+@keyframes jello-vertical {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}

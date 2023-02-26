@@ -1,0 +1,15 @@
+.submit-btn {
+  width: 20px;
+  height: 20px;
+
+  border: none;
+  background: url('/src/assets/send.svg');
+  background-size: cover;
+
+  transition: 200ms;
+
+  &:hover {
+    cursor: pointer;
+    scale: 1.2;
+  }
+}
